@@ -107,8 +107,15 @@ This file should not be detected.
 
 ---
 
-This files areused to test searching, renaming, and deleting safely.
+This files are used to test searching, renaming, and deleting safely.
 
+
+--- 
+
+## Notes
+
+- The tool reads only the **first N characters** of each file (N = length of the search text).
+- Supports **Ctrl + A** (select all) and **Ctrl + V** (paste replaces content).
 
 
 ## Safety note
